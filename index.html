@@ -288,31 +288,20 @@ footer{background:#060f1e;padding:60px 28px 28px;}
         </div>
         <p class="hero-note">Applying does not impact your credit score</p>
       </div>
-      <div class="hero-form-card" id="hero-form-wrap">
-        <div id="hero-form-content">
-          <h3>Check Your Options</h3>
-          <p>No hard credit pull · Results in minutes</p>
-          <div class="hf-row">
-            <div class="hf-field"><label>First Name</label><input type="text" id="hf-first" placeholder="John"/></div>
-            <div class="hf-field"><label>Last Name</label><input type="text" id="hf-last" placeholder="Smith"/></div>
-          </div>
-          <div class="hf-field"><label>Business Name</label><input type="text" id="hf-biz" placeholder="Acme LLC"/></div>
-          <div class="hf-field"><label>Email Address</label><input type="email" id="hf-email" placeholder="john@business.com"/></div>
-          <div class="hf-field"><label>Phone Number</label><input type="tel" id="hf-phone" placeholder="(555) 000-0000"/></div>
-          <div class="hf-field"><label>Monthly Revenue</label>
-            <select id="hf-revenue"><option>Select range...</option><option>$10K–$25K</option><option>$25K–$50K</option><option>$50K–$100K</option><option>$100K–$250K</option><option>$250K+</option></select>
-          </div>
-          <button class="hf-submit" onclick="submitHeroForm()">See My Funding Options →</button>
-          <p class="hf-disclaimer"><label style="display:flex;align-items:flex-start;gap:8px;text-align:left;cursor:pointer;"><input type="checkbox" id="hf-consent" style="margin-top:2px;flex-shrink:0;accent-color:var(--blue);width:14px;height:14px;"/> <span>By checking this box, you agree to receive text messages (e.g., payment reminders, 2FA, account notifications, alerts, customer service, and marketing messages) from Yadid Capital Group LLC at the cell number used when signing up. Consent is not a condition of any purchase. Reply STOP to unsubscribe, HELP for help. Message &amp; data rates may apply. Message frequency varies. I have read and agree with the <a onclick="showPage('terms')" style="color:var(--blue);cursor:pointer;">Terms and Conditions</a> &amp; <a onclick="showPage('privacy')" style="color:var(--blue);cursor:pointer;">Privacy Policy</a>.</span></label></p>
+      <div class="hero-form-card">
+        <h3>Check Your Options</h3>
+        <p>No hard credit pull · Results in minutes</p>
+        <div class="hf-row">
+          <div class="hf-field"><label>First Name</label><input type="text" placeholder="John"/></div>
+          <div class="hf-field"><label>Last Name</label><input type="text" placeholder="Smith"/></div>
         </div>
-        <div id="hero-form-success" style="display:none;text-align:center;padding:20px 0;">
-          <div style="width:64px;height:64px;background:var(--blue3);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:30px;height:30px;"><polyline points="20 6 9 17 4 12"/></svg>
-          </div>
-          <h3 style="font-family:'Libre Baskerville',serif;font-size:22px;color:var(--blue4);margin-bottom:10px;">Your Form Has Been Submitted!</h3>
-          <p style="font-size:14px;color:var(--gray);line-height:1.7;margin-bottom:24px;">Thank you! A funding specialist from Yadid Capital Group will be in touch with you shortly.</p>
-          <div style="background:var(--blue3);border-radius:10px;padding:16px;font-size:13px;color:var(--blue4);font-weight:600;">📞 Need immediate help? Call us at<br/><a href="tel:3477482824" style="color:var(--blue);font-size:16px;">(347) 748-2824</a></div>
+        <div class="hf-field"><label>Business Name</label><input type="text" placeholder="Acme LLC"/></div>
+        <div class="hf-field"><label>Phone Number</label><input type="tel" placeholder="(555) 000-0000"/></div>
+        <div class="hf-field"><label>Monthly Revenue</label>
+          <select><option>Select range...</option><option>$10K–$25K</option><option>$25K–$50K</option><option>$50K–$100K</option><option>$100K–$250K</option><option>$250K+</option></select>
         </div>
+        <button class="hf-submit" onclick="showPage('apply')">See My Funding Options →</button>
+        <p class="hf-disclaimer"><label style="display:flex;align-items:flex-start;gap:8px;text-align:left;cursor:pointer;"><input type="checkbox" style="margin-top:2px;flex-shrink:0;accent-color:var(--blue);width:14px;height:14px;"/> <span>By checking this box, you agree to receive text messages (e.g., payment reminders, 2FA, account notifications, alerts, customer service, and marketing messages) from Yadid Capital Group LLC at the cell number used when signing up. Consent is not a condition of any purchase. Reply STOP to unsubscribe, HELP for help. Message &amp; data rates may apply. Message frequency varies. I have read and agree with the <a onclick="showPage('terms')" style="color:var(--blue);cursor:pointer;">Terms and Conditions</a> &amp; <a onclick="showPage('privacy')" style="color:var(--blue);cursor:pointer;">Privacy Policy</a>.</span></label></p>
       </div>
     </div>
   </div>
@@ -718,7 +707,7 @@ footer{background:#060f1e;padding:60px 28px 28px;}
         <a>Mon–Fri: 9am – 6pm EST</a>
       </div>
     </div>
-    <div class="footer-disclaimer">By contacting Yadid Capital Group or submitting any form on this site, you consent to receive SMS text messages and phone calls from Yadid Capital Group at the number provided. Message and data rates may apply. Reply STOP to opt out of SMS at any time. Yadid Capital Group LLC is a direct funder and/or broker of commercial business  All financing is subject to approval. This is not a commitment to lend.</div>
+    <div class="footer-disclaimer">By contacting Yadid Capital Group or submitting any form on this site, you consent to receive SMS text messages and phone calls from Yadid Capital Group at the number provided. Message and data rates may apply. Reply STOP to opt out of SMS at any time. Yadid Capital Group LLC is a direct funder and/or broker of commercial business financing. All financing is subject to approval. This is not a commitment to lend.</div>
     <div class="footer-bottom">
       <p>© 2026 Yadid Capital Group LLC. All rights reserved.</p>
       <div class="footer-links">
@@ -736,25 +725,6 @@ function showPage(name){
   if(pg){pg.classList.add('active');}
   window.scrollTo({top:0,behavior:'smooth'});
   return false;
-}
-function submitHeroForm(){
-  var first=document.getElementById('hf-first').value.trim();
-  var last=document.getElementById('hf-last').value.trim();
-  var biz=document.getElementById('hf-biz').value.trim();
-  var email=document.getElementById('hf-email').value.trim();
-  var phone=document.getElementById('hf-phone').value.trim();
-  var revenue=document.getElementById('hf-revenue').value;
-  var consent=document.getElementById('hf-consent').checked;
-  if(!first||!last||!email||!phone){
-    alert('Please fill in all required fields.');
-    return;
-  }
-  if(!consent){
-    alert('Please check the consent box to continue.');
-    return;
-  }
-  document.getElementById('hero-form-content').style.display='none';
-  document.getElementById('hero-form-success').style.display='block';
 }
 </script>
 </body>
